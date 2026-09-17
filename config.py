@@ -59,7 +59,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/istkharroohi78/shivnhi",
+    "https://github.com/THE-SHIV-OFFICIAL/redwineupdate",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
@@ -89,12 +89,12 @@ STRING2 = getenv("STRING_SESSION2", "")
 STRING3 = getenv("STRING_SESSION3", "")
 STRING4 = getenv("STRING_SESSION4", "")
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/pozv5s.jpg").split()
-HELP_IMG_URL = getenv("HELP_IMG_URL", "https://files.catbox.moe/dk92ep.jpg").split()
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/wktt8l.jpg").split()
+START_IMG_URL = getenv("START_IMG_URL", "https://image.zaw-myo.workers.dev/image/fbe45904-8603-4e6d-9d51-2e89104db85b").split()
+HELP_IMG_URL = getenv("HELP_IMG_URL", "https://image.zaw-myo.workers.dev/image/fbe45904-8603-4e6d-9d51-2e89104db85b").split()
+PING_IMG_URL = getenv("PING_IMG_URL", "https://image.zaw-myo.workers.dev/image/fbe45904-8603-4e6d-9d51-2e89104db85b").split()
 
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://files.catbox.moe/6r97s4.jpg https://files.catbox.moe/huqcbp.jpg https://files.catbox.moe/gbx3h3.jpg https://files.catbox.moe/6f5azl.jpg").split()
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/6r97s4.jpg")
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://image.zaw-myo.workers.dev/image/fbe45904-8603-4e6d-9d51-2e89104db85b")
 TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL", "https://files.catbox.moe/6f5azl.jpg").split()
 TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL", "https://files.catbox.moe/6r97s4.jpg").split()
 STREAM_IMG_URL = getenv("STREAM_IMG_URL", "https://files.catbox.moe/6r97s4.jpg").split()
@@ -111,7 +111,7 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/n22tbs.jpg").split()
+START_IMG_URL = getenv("START_IMG_URL", "https://image.zaw-myo.workers.dev/image/fbe45904-8603-4e6d-9d51-2e89104db85b").split()
 
 def time_to_seconds(time):
     return sum(int(x) * 60**i for i, x in enumerate(reversed(str(time).split(":"))))
